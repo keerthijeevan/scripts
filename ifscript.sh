@@ -19,7 +19,8 @@ read -p "Enter the choice which are mentioned above bro" a
 
 if [ $a -eq 1 ]
 then
-echo "your user name is $(whoami)"
+echo "your user name is "
+whoami
 elif [ $a -eq 2 ]
 then
 echo "The cpu working like $(df -h)"
